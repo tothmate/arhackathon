@@ -14,17 +14,15 @@ module.exports = {
       //price: "$100",
       venue: "Prezi.com office",
       address: "54-56 Nagymező Street",
-      city: "Budapest, Hungary",
-      latitude: "47.495632",
-      longitude: "19.065138"
-      //state: ""
+      city: "Budapest",
+      state: "Hungary"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Register now!",
-        link: "http://eventick.com.br"
+        link: "#contact"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -44,12 +42,12 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
+      'contact',
       'location',
-      //'speakers',
       'schedule',
-      'sponsors',
+       //'speakers',
+      'sponsors'
       //'partners'
-      // 'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -60,7 +58,7 @@ module.exports = {
       schedule: "Schedule",
       sponsors: "Sponsors",
       partners: "Partners",
-      contact: "Contact"
+      contact: "Register"
     },
 
     // The entire schedule
