@@ -7,15 +7,17 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "Augmented Reality Hackathon",
+      description: "",
+      date: "March 28-29",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      //price: "$100",
+      venue: "Prezi.com office",
+      address: "54-56 Nagymező Street",
+      city: "Budapest, Hungary",
+      latitude: "47.495632",
+      longitude: "19.065138"
+      //state: ""
     },
 
     // The Call To Action button at the header,
@@ -26,15 +28,15 @@ module.exports = {
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    //forkButton: {
+    //    repository: "https://github.com/braziljs/conf-boilerplate"
+    //},
 
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      url: "http://arhackathon.tothmate.com",
+      //googleanalytics: "UA-33656081-1"
     },
 
     // Active sections on the website

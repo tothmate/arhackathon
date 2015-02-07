@@ -1,11 +1,11 @@
 {
-  "name": "ConfBoilerplate",
+  "name": "ARHackathon",
   "version": "0.2.0",
-  "description": "A kickstart to create websites for conference/events.",
-  "homepage": "http://confboilerplate.com",
+  "description": "",
+  "homepage": "http://arhackathon.tothmate.com",
   "repository": {
     "type" : "git",
-    "url" : "http://github.com/braziljs/conf-boilerplate.git"
+    "url" : "http://github.com/tothmate/arhackathon.git"
   },
   "engines": {
     "node": ">0.8.x",
