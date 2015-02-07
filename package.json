@@ -17,8 +17,8 @@
     "watch": "docpad run"
   },
   "dependencies": {
-    "docpad": "6.30.x",
-    "docpad-plugin-eco": "2.0.2",
+    "docpad": "6.69.x",
+    "docpad-plugin-eco": "2.1.x",
     "docpad-plugin-marked": "2.1.1",
     "docpad-plugin-partials": "2.6.1",
     "docpad-plugin-less": "2.1.3",
