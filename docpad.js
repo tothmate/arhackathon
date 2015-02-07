@@ -22,7 +22,7 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Apply now!",
-        link: "#contact"
+        link: "#apply"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
@@ -42,11 +42,12 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
-      'contact',
+      'apply',
       'location',
       'schedule',
        //'speakers',
-      'sponsors'
+      'sponsors',
+      'contact'
       //'partners'
     ],
 
@@ -58,13 +59,14 @@ module.exports = {
       schedule: "Schedule",
       sponsors: "Organizers",
       partners: "Partners",
-      contact: "Apply"
+      contact: "Contact",
+      apply: "Apply now!"
     },
 
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
+        name: "Schedule coming soon!",
         time: "9h00"
       }
     ],
