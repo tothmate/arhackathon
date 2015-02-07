@@ -21,7 +21,7 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
+        text: "Apply now!",
         link: "#contact"
     },
 
@@ -56,9 +56,9 @@ module.exports = {
       location: "Location",
       speakers: "Speakers",
       schedule: "Schedule",
-      sponsors: "Sponsors",
+      sponsors: "Organizers",
       partners: "Partners",
-      contact: "Register"
+      contact: "Apply"
     },
 
     // The entire schedule
@@ -73,8 +73,13 @@ module.exports = {
     sponsors: [
       {
         name: "Prezi",
-        logo: "themes/yellow-swan/img/sponsor.png",
+        logo: "http://prezi-a.akamaihd.net/press-versioned/86-7ef007f78239be96c00c4a58ead74b327f07efb7/press/img/kit/prezi_logos/prezi_vertical.png",
         url: "http://prezi.com"
+      },
+      {
+        name: "360world",
+        logo: "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/v/t1.0-9/560372_10150869408967253_848834056_n.jpg?oh=a2e7076da8b6900198559376c0aad4dc&oe=55501A7D&__gda__=1432644823_ce04522f0b87e13c521531aa71cab81d",
+        url: "http://360world.eu"
       }
     ],
 
